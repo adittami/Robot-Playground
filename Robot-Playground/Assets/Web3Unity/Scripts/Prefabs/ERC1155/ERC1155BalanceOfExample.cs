@@ -2,18 +2,25 @@ using System.Collections;
 using System.Numerics;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ERC1155BalanceOfExample : MonoBehaviour
 {
+    public GameObject Sphere;
     async void Start()
     {
-        string chain = "avalanche";
-        string network = "testnet";
-        string contract = "0xbDF2d708c6E4705824dC024187cd219da41C8c81";
-        string account = "0xdD4c825203f97984e7867F11eeCc813A036089D1";
-        string tokenId = "2";
+        string chain = "ethereum";
+        string network = "rinkeby";
+        string contract = "0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656";
+        string account = PlayerPrefs.GetString("Account");
+        string tokenId = "9821907875876459826970335187971642635874725110019031877339021421615215804417";
 
         BigInteger balanceOf = await ERC1155.BalanceOf(chain, network, contract, account, tokenId);
         print(balanceOf);
+
+        if (balanceOf > 0)
+        {
+            Sphere.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+        }
     }
 }
