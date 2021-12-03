@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: 06edbc01d36938b4db847314a56ad4c8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arena_walls_exterior
+    100004: boxing_ring
+    100006: entrance_2
+    100008: entrance_door
+    100010: Entrance_Floor
+    100012: Entrance_Lights_Left1_pCube6
+    100014: Entrance_Screen_Large
+    100016: Entrance_Sides
+    100018: entrance_wall
+    100020: fence
+    100022: Ground
+    100024: nucleus1
+    100026: octagon_base
+    100028: octagon_door_1
+    100030: octagon_door_2
+    100032: octagon_floor
+    100034: polySurface134
+    100036: polySurface137
+    100038: polySurface138
+    100040: polySurface18
+    100042: ramp
+    100044: red_spot_light2_spot_light
+    100046: ring
+    100048: Roof
+    100050: roof_lights1
+    100052: Small_Screen_Left
+    100054: Small_Screen_Right
+    100056: stairs1
+    400000: //RootNode
+    400002: arena_walls_exterior
+    400004: boxing_ring
+    400006: entrance_2
+    400008: entrance_door
+    400010: Entrance_Floor
+    400012: Entrance_Lights_Left1_pCube6
+    400014: Entrance_Screen_Large
+    400016: Entrance_Sides
+    400018: entrance_wall
+    400020: fence
+    400022: Ground
+    400024: nucleus1
+    400026: octagon_base
+    400028: octagon_door_1
+    400030: octagon_door_2
+    400032: octagon_floor
+    400034: polySurface134
+    400036: polySurface137
+    400038: polySurface138
+    400040: polySurface18
+    400042: ramp
+    400044: red_spot_light2_spot_light
+    400046: ring
+    400048: Roof
+    400050: roof_lights1
+    400052: Small_Screen_Left
+    400054: Small_Screen_Right
+    400056: stairs1
+    2100000: lambert41
+    2100002: entrance_texture2
+    2100004: entrance_texture_1
+    2100006: entrance_texture_3
+    2100008: entrance_way
+    2100010: octagon_mat
+    2100012: main_entrance
+    2100014: arena_exterior
+    2100016: lambert4
+    2100018: lambert24
+    2100020: screen
+    2100022: screen_texture
+    2100024: arena_walls
+    2100026: lambert14
+    2100028: arena_roof
+    2100030: floor
+    2100032: roof_lights
+    2100034: lambert18
+    2100036: lambert19
+    2100038: lambert20
+    2100040: roofarena_phongE6
+    2100042: entrance_lights
+    2100044: octagon_stairs
+    2100046: fence1
+    2100048: lambert44
+    2100050: spotlighttexture
+    2100052: octagon_lower_border
+    2100054: lambert40
+    2100056: cage_sides
+    2100058: octagon_door_texture
+    2300000: arena_walls_exterior
+    2300002: entrance_2
+    2300004: entrance_door
+    2300006: Entrance_Floor
+    2300008: Entrance_Lights_Left1_pCube6
+    2300010: Entrance_Screen_Large
+    2300012: Entrance_Sides
+    2300014: entrance_wall
+    2300016: Ground
+    2300018: octagon_base
+    2300020: octagon_door_1
+    2300022: octagon_door_2
+    2300024: octagon_floor
+    2300026: polySurface134
+    2300028: polySurface137
+    2300030: polySurface138
+    2300032: polySurface18
+    2300034: ramp
+    2300036: red_spot_light2_spot_light
+    2300038: Roof
+    2300040: roof_lights1
+    2300042: Small_Screen_Left
+    2300044: Small_Screen_Right
+    2300046: stairs1
+    3300000: arena_walls_exterior
+    3300002: entrance_2
+    3300004: entrance_door
+    3300006: Entrance_Floor
+    3300008: Entrance_Lights_Left1_pCube6
+    3300010: Entrance_Screen_Large
+    3300012: Entrance_Sides
+    3300014: entrance_wall
+    3300016: Ground
+    3300018: octagon_base
+    3300020: octagon_door_1
+    3300022: octagon_door_2
+    3300024: octagon_floor
+    3300026: polySurface134
+    3300028: polySurface137
+    3300030: polySurface138
+    3300032: polySurface18
+    3300034: ramp
+    3300036: red_spot_light2_spot_light
+    3300038: Roof
+    3300040: roof_lights1
+    3300042: Small_Screen_Left
+    3300044: Small_Screen_Right
+    3300046: stairs1
+    4300000: Entrance_Screen_Large
+    4300002: entrance_2
+    4300004: Entrance_Floor
+    4300006: octagon_base
+    4300008: entrance_door
+    4300010: arena_walls_exterior
+    4300012: entrance_wall
+    4300014: ramp
+    4300016: Small_Screen_Left
+    4300018: Small_Screen_Right
+    4300020: polySurface18
+    4300022: polySurface134
+    4300024: Roof
+    4300026: Ground
+    4300028: roof_lights1
+    4300030: Entrance_Sides
+    4300032: Entrance_Lights_Left1_pCube6
+    4300034: stairs1
+    4300036: polySurface138
+    4300038: polySurface137
+    4300040: red_spot_light2_spot_light
+    4300042: octagon_floor
+    4300044: octagon_door_1
+    4300046: octagon_door_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arena_exterior
+    second: {fileID: 2100000, guid: 3376f1a5716ac544db2e9dac59e56576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arena_roof
+    second: {fileID: 2100000, guid: 63592b4279d36b9478ddb7c860d6f9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arena_walls
+    second: {fileID: 2100000, guid: eba6d17c2855b0f459d2dacdde394e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cage_sides
+    second: {fileID: 2100000, guid: e2542286673c93c45971d0ef12c250f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_lights
+    second: {fileID: 2100000, guid: 76ff0990ae6a24640b6fc39d8d8072e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_texture2
+    second: {fileID: 2100000, guid: 3312e69391518424e82f673751022761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_texture_1
+    second: {fileID: 2100000, guid: 53f752338da52c74597e6db82c2e6720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_texture_3
+    second: {fileID: 2100000, guid: 3306ec5e19c5ac043b7b2c5ef0899c50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_way
+    second: {fileID: 2100000, guid: fa8a49299e043404aa66d7613d83817a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence1
+    second: {fileID: 2100000, guid: 73f00b5662322774bad5e434030b5a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: 08208d9d938b1284abf4353000743e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert14
+    second: {fileID: 2100000, guid: 7d1b0bc08bf6cef4c86d41d722cfcd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert18
+    second: {fileID: 2100000, guid: cbd661822f9959f4ca8251ac0a5036ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert19
+    second: {fileID: 2100000, guid: e9e49cd5abc470e4881553ceb44e9790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20
+    second: {fileID: 2100000, guid: 486660f67883cc54bb236263ae871976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert24
+    second: {fileID: 2100000, guid: bb806f6e0992f8c4e89fbc9afb040405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 71f541bc7cc87a14c82540134d25a0af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert40
+    second: {fileID: 2100000, guid: 92d6044b9fcd82b4f93354ff2a9009cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert41
+    second: {fileID: 2100000, guid: e3666bb78b2638a409e59843f9173876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert44
+    second: {fileID: 2100000, guid: f0a09c34f1f86254fb3b8f83efab3b79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_entrance
+    second: {fileID: 2100000, guid: 604386f261ae93747aa48ae72ad2cbb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: octagon_door_texture
+    second: {fileID: 2100000, guid: 1a0f8aebfd7a7f14f85b6b3c9bcc3afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: octagon_lower_border
+    second: {fileID: 2100000, guid: 9b5e493d9e5435b4da7247722017801f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: octagon_mat
+    second: {fileID: 2100000, guid: 94580a21080690d4d812b58dc49d0737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: octagon_stairs
+    second: {fileID: 2100000, guid: 78cf7c1357d8101468fc1b066f290ffb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_lights
+    second: {fileID: 2100000, guid: 4d2507c4d9a83fe4db72200d52403749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofarena_phongE6
+    second: {fileID: 2100000, guid: b93eeb8f51f034c4e91ff8eca62f8518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screen
+    second: {fileID: 2100000, guid: f2e651591472f874495d28604fb771b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screen_texture
+    second: {fileID: 2100000, guid: e27572a05df25f148997c25e143b37d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spotlighttexture
+    second: {fileID: 2100000, guid: 3f5fb30ed1dee1c4b8bf03a344fc2088, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
