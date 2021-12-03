@@ -174,7 +174,9 @@ public class GamePlay : MonoBehaviour
    public void OnTouchControlPannel()
     {
         FightPannel.SetActive(false);
+#if UNITY_IOS || UNITY_ANDROID
         TouchControlPannel.SetActive(true);
+#endif
         Enemy.GetComponent<EnemyAI>().enabled = true;
     }
     public void RestartGame()

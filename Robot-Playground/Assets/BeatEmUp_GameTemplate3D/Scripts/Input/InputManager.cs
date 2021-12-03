@@ -30,9 +30,11 @@ public class InputManager : MonoBehaviour {
 	void Start(){
 
 		//automatically enable touch controls on IOS or android
-		#if UNITY_IOS || UNITY_ANDROID
-			inputType = INPUTTYPE.TOUCHSCREEN;
-		#endif
+#if UNITY_IOS || UNITY_ANDROID
+		inputType = INPUTTYPE.TOUCHSCREEN;
+#else
+		inputType = INPUTTYPE.KEYBOARD;
+#endif
 	}
 
 	public static void DirectionEvent(Vector2 dir, bool doubleTapActive){
