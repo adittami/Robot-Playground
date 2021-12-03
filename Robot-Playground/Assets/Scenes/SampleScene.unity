@@ -1438,6 +1438,7 @@ GameObject:
   - component: {fileID: 1414846346}
   - component: {fileID: 1414846345}
   - component: {fileID: 1414846344}
+  - component: {fileID: 1414846349}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1452,13 +1453,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414846343}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aeb7821bcefa4853a35dcb23ea5b802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ContractAddressInput: {fileID: 411825721}
   TokenIDInput: {fileID: 443038588}
+  CustomNFT: 0
+  CheckingBalance: 0
 --- !u!65 &1414846345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1535,6 +1538,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 45}
+--- !u!114 &1414846349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414846343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a45967c787b2644a24703694075f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContractAddressInput: {fileID: 411825721}
+  TokenIDInput: {fileID: 443038588}
+  CustomNFT: 0
+  CheckingBalance: 0
 --- !u!1 &1463789590
 GameObject:
   m_ObjectHideFlags: 0

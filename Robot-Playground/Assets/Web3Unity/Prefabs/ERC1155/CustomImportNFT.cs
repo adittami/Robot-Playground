@@ -36,8 +36,8 @@ public class CustomImportNFT : MonoBehaviour
 
             string chain = "ethereum";
             string network = "rinkeby";
-            string contract = "0xcC14dd8E6673fEE203366115D3f9240b079a4930";   
-            string tokenId = "12";   
+            string contract = "0x7dca125b1e805dC88814aeD7ccc810f677d3E1DB";   
+            string tokenId = "19";   
 
             //////////////////////////////////////////////////// Custom Call to Contract/////////////////////////////////////////////////////////
             string method = "tokenURI";
