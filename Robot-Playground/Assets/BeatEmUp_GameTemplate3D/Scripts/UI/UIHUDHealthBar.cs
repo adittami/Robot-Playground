@@ -43,6 +43,7 @@ public class UIHUDHealthBar : MonoBehaviour {
 	//loads the HUD icon of the player from the player prefab (Healthsystem)
 	void SetPlayerPortraitAndName(){
 		if(playerPortrait != null){
+			/*
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 			HealthSystem healthSystem = player.GetComponent<HealthSystem>();
 
@@ -55,6 +56,7 @@ public class UIHUDHealthBar : MonoBehaviour {
 				//set name
 				nameField.text = healthSystem.PlayerName;
 			}
+			*/
 		}
 	}
 }

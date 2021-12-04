@@ -13,7 +13,7 @@ public class GamePlay : MonoBehaviour
     UIManager UI;
     public AudioSource Source;
     public AudioClip CountDown,Win,Fail,Buttonsound;
-    private void Awake()
+    public void StartCounter()
     {
         i = this;
       
