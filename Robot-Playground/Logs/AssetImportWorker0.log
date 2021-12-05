@@ -15,11 +15,11 @@ C:/Users/13129/Documents/GitHub/Robot-Playground/Robot-Playground
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52512
+64017
 Successfully changed project path to: C:/Users/13129/Documents/GitHub/Robot-Playground/Robot-Playground
 C:/Users/13129/Documents/GitHub/Robot-Playground/Robot-Playground
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004040 seconds.
+Registered in 0.003903 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 83.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.680 seconds
+- Completed reload, in  3.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3680ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (3775ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018671 seconds.
+Registered in 0.018557 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.753 seconds
+- Completed reload, in  2.957 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2754ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (2958ms)
+		BeginReloadAssembly (285ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (2365ms)
-			LoadAssemblies (190ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2543ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (614ms)
+			SetupTypeCache (608ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (1270ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (1441ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (1065ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (1218ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
+Unloading 1732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.7 MB.
+System memory in use after: 82.8 MB.
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2204.
-Total: 5.820400 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.079300 ms MarkObjects: 5.359100 ms  DeleteObjects: 0.169800 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2207.
+Total: 6.041000 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.091900 ms MarkObjects: 5.495400 ms  DeleteObjects: 0.187900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,599 +135,297 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_RobotsAssets/Robots/Robots 3
-  artifactKey: Guid(efcffa905edf6684194175a727f3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_RobotsAssets/Robots/Robots 3 using Guid(efcffa905edf6684194175a727f3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62294ee8fe8e2724027e6ae8563facfb') in 0.020985 seconds 
-  Import took 0.026073 seconds .
+  path: Assets/Winston/Meshes/Winston.fbx
+  artifactKey: Guid(8bf4ca6f6f02d554e9cbb663d10ef7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Winston/Meshes/Winston.fbx using Guid(8bf4ca6f6f02d554e9cbb663d10ef7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fe654b771a8b8c553f3a54a7f64d8d') in 0.900510 seconds 
+  Import took 0.913002 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.806217 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Enemy1/EnemyRig.FBX
-  artifactKey: Guid(87886e989f329e84fbd053fbcaff4f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Enemy1/EnemyRig.FBX using Guid(87886e989f329e84fbd053fbcaff4f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a623c6e42508a2eb8798a454806e0') in 0.248152 seconds 
-  Import took 0.255432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Environment/Models/WoodenCrateDestroyed.FBX
-  artifactKey: Guid(ba22213433f21f74ea172b0dad3fbd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Environment/Models/WoodenCrateDestroyed.FBX using Guid(ba22213433f21f74ea172b0dad3fbd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9327168aa60dc1699953331600f1c872') in 0.715739 seconds 
-  Import took 0.722170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Enemy1/EnemyRig.FBX
-  artifactKey: Guid(87886e989f329e84fbd053fbcaff4f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Enemy1/EnemyRig.FBX using Guid(87886e989f329e84fbd053fbcaff4f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a623c6e42508a2eb8798a454806e0') in 0.050621 seconds 
-  Import took 0.057516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Player1/Model/PlayerRig.FBX
-  artifactKey: Guid(68ff77d4e131db34586dc6f268e92dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Player1/Model/PlayerRig.FBX using Guid(68ff77d4e131db34586dc6f268e92dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2696bbe4c395eee18d3267f243ed6c7a') in 0.060333 seconds 
-  Import took 0.066373 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Winston/prefab/Winston.prefab
+  artifactKey: Guid(c72269396f82e214b9e099c930c36173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Winston/prefab/Winston.prefab using Guid(c72269396f82e214b9e099c930c36173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c96c01ebf34405441b9d15dff15423e') in 0.186267 seconds 
+  Import took 0.199068 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017136 seconds.
+Registered in 0.019659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2609ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2240ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (589ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (995ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 6.040700 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.077900 ms MarkObjects: 5.702400 ms  DeleteObjects: 0.055900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2499ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2096ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1092ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (924ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2223.
+Total: 6.145600 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.116300 ms MarkObjects: 5.710900 ms  DeleteObjects: 0.046500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015890 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
+- Completed reload, in  2.488 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2520ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (2489ms)
+		BeginReloadAssembly (225ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2183ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2121ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (568ms)
+			SetupTypeCache (586ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (1156ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (980ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.8 MB.
-System memory in use after: 97.9 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2218.
-Total: 6.400700 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.087700 ms MarkObjects: 5.880800 ms  DeleteObjects: 0.114300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 546.625182 seconds.
-  path: Assets/AnimeGirls/BaseCharacter
-  artifactKey: Guid(7e6aef82b559af64c9b699321cbcce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter using Guid(7e6aef82b559af64c9b699321cbcce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99e108fd907d1028aebbd042f00f1c') in 0.021651 seconds 
-  Import took 0.029957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052444 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Underwear1.prefab
-  artifactKey: Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Underwear1.prefab using Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd192e1bda704f2f47f4631006969b385') in 0.575316 seconds 
-  Import took 0.579615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.457917 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter
-  artifactKey: Guid(f9f9e92d49849014386e7cdb245c993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter using Guid(f9f9e92d49849014386e7cdb245c993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593ce9ba530d964b8d1e3ad5c394bd68') in 0.005177 seconds 
-  Import took 0.011024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.172006 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles
-  artifactKey: Guid(3ee06154672a6f945b79158f4e51f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles using Guid(3ee06154672a6f945b79158f4e51f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad289db38fd9146a51e7a4d5f88567c') in 0.013976 seconds 
-  Import took 0.045396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.207465 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx
-  artifactKey: Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx using Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ea655cf295d2634e0ab29ee22b0f74') in 0.369964 seconds 
-  Import took 0.377158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.399164 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Demo files/Anim_Idle.fbx
-  artifactKey: Guid(6d53a488351422c4b9e379c87bd0c523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Demo files/Anim_Idle.fbx using Guid(6d53a488351422c4b9e379c87bd0c523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe8b191dc9be5d86bc506f813b06e9b') in 0.061583 seconds 
-  Import took 0.068325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/AnimeGirls/Casual1/SourceFiles/Mesh/AnimeGirl.fbx
-  artifactKey: Guid(7e0043553097dc34e867f52b292bb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/Casual1/SourceFiles/Mesh/AnimeGirl.fbx using Guid(7e0043553097dc34e867f52b292bb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7b1d15225c9cf5c95df1d6681294c') in 0.136404 seconds 
-  Import took 0.145417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Environment/Models/DrumBarrelDestroyed.FBX
-  artifactKey: Guid(19f50c0ab119b90479939416eabd5557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Environment/Models/DrumBarrelDestroyed.FBX using Guid(19f50c0ab119b90479939416eabd5557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dc5a50ed759bf96daa46fe18b3c085') in 0.333839 seconds 
-  Import took 0.339077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/AnimeGirls/Casual1/SourceFiles/Mesh/AnimeGirl.fbx
-  artifactKey: Guid(7e0043553097dc34e867f52b292bb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/Casual1/SourceFiles/Mesh/AnimeGirl.fbx using Guid(7e0043553097dc34e867f52b292bb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7b1d15225c9cf5c95df1d6681294c') in 0.102152 seconds 
-  Import took 0.109479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/BeatEmUp_GameTemplate3D/Items/BaseBallBatBroken.FBX
-  artifactKey: Guid(94ab6e6ea3be8e742a4b1e4445d73354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BeatEmUp_GameTemplate3D/Items/BaseBallBatBroken.FBX using Guid(94ab6e6ea3be8e742a4b1e4445d73354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bea732c9cf379f2834819f25fa2a8b8') in 0.031380 seconds 
-  Import took 0.037959 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019408 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.633 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2634ms)
-		BeginReloadAssembly (247ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2241ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (591ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1182ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (1004ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1716 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 6.524900 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.107100 ms MarkObjects: 5.618800 ms  DeleteObjects: 0.495900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018832 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.484 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2484ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (2115ms)
-			LoadAssemblies (182ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (554ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1129ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1094ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (957ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (932ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2225.
+Total: 6.928000 ms (FindLiveObjects: 0.496500 ms CreateObjectMapping: 0.197900 ms MarkObjects: 6.187300 ms  DeleteObjects: 0.043900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2590ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2233ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 5.726200 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.078100 ms MarkObjects: 5.392600 ms  DeleteObjects: 0.052900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2704ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2287ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (589ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1026ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1715 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 98.7 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 5.674600 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.123000 ms MarkObjects: 4.846400 ms  DeleteObjects: 0.445600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 263.831568 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat
-  artifactKey: Guid(b6ba44cc5b0eb964c9eb32950980bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat using Guid(b6ba44cc5b0eb964c9eb32950980bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3260cb976917dc84a95e1ec093a2dac') in 0.019687 seconds 
-  Import took 0.026478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113195 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat
-  artifactKey: Guid(8e526af249278a0498ce8273e07fcc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat using Guid(8e526af249278a0498ce8273e07fcc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bfa6400edba843dbd4781b39983b52') in 0.112709 seconds 
-  Import took 0.145256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat
-  artifactKey: Guid(903deec0895457d43a093ac8ee3e1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat using Guid(903deec0895457d43a093ac8ee3e1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a9cf3da39a23079930e66ae2f00592') in 0.024061 seconds 
-  Import took 0.029308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat
-  artifactKey: Guid(33f16960b5faae741a694a6018f8f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat using Guid(33f16960b5faae741a694a6018f8f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e458425493272d9c1b2d27e808105f8') in 0.023554 seconds 
-  Import took 0.031057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat
-  artifactKey: Guid(b97b55ed446d8ed48acc18d42edf2de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat using Guid(b97b55ed446d8ed48acc18d42edf2de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e3121afed2b8bbe6fb18a254ec9ab4') in 0.026107 seconds 
-  Import took 0.032278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat
-  artifactKey: Guid(a5046b7e2e9bd10459e090170ab26f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat using Guid(a5046b7e2e9bd10459e090170ab26f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bbb7ecc356d9357eff3379ee8425e0') in 0.025508 seconds 
-  Import took 0.030921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat
-  artifactKey: Guid(1b5c7ed19ffba894c8cea260f2347c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat using Guid(1b5c7ed19ffba894c8cea260f2347c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574bed7e50b6477248c4677938c41070') in 0.026513 seconds 
-  Import took 0.033105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat
-  artifactKey: Guid(29c9dd3707158b2448cc0bdf81c33ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat using Guid(29c9dd3707158b2448cc0bdf81c33ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cc412b20ddef29af0b14fffc3b1607') in 0.027531 seconds 
-  Import took 0.034161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat
-  artifactKey: Guid(5869b0877c9aac0429ded83b64254243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat using Guid(5869b0877c9aac0429ded83b64254243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d7defe9c80c9f3328a261556347fa8') in 0.048461 seconds 
-  Import took 0.054000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat
-  artifactKey: Guid(99a79f6de2825ec4bb471ef12eee8b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat using Guid(99a79f6de2825ec4bb471ef12eee8b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85f489068e5c714e510ed8ccd8b36c7') in 0.031209 seconds 
-  Import took 0.037853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat
-  artifactKey: Guid(ac66396422b86cb4c92dad11a754d445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat using Guid(ac66396422b86cb4c92dad11a754d445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d1027c6d98e5a00a33360dd5411571') in 0.029777 seconds 
-  Import took 0.034952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat
-  artifactKey: Guid(aa86a0f3e62852142bfc3a5d4cd7a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat using Guid(aa86a0f3e62852142bfc3a5d4cd7a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b5ca2512566a93431db84017fe70f1') in 0.027782 seconds 
-  Import took 0.035586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat
-  artifactKey: Guid(fe5f139c27784a24493f695dd3cd1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat using Guid(fe5f139c27784a24493f695dd3cd1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2eb56ed0f452e99dd817e3ee25b8cb') in 0.042431 seconds 
-  Import took 0.052966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat
-  artifactKey: Guid(023452b84affa6f43a8feea0e1c55499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat using Guid(023452b84affa6f43a8feea0e1c55499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96c5afdd39f21768be253efd9e3b19f') in 0.027699 seconds 
-  Import took 0.033364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat
-  artifactKey: Guid(e1eb634c482838147a8f9f789fdfb8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat using Guid(e1eb634c482838147a8f9f789fdfb8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543a9e33df26f809f97b368aafbbc178') in 0.027380 seconds 
-  Import took 0.032876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat
-  artifactKey: Guid(b634fca61d42a294a8d558c7cf413446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat using Guid(b634fca61d42a294a8d558c7cf413446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1124d031230b6b63923653d2dc5f60b') in 0.027210 seconds 
-  Import took 0.032940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat
-  artifactKey: Guid(9e09ff6eb81e1bb46ac6c49cc77be78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat using Guid(9e09ff6eb81e1bb46ac6c49cc77be78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3321a69d6ea2cd2dd4e247356b5b09d') in 0.025262 seconds 
-  Import took 0.030645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat
-  artifactKey: Guid(45f47006298912f4dbec4062603b460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat using Guid(45f47006298912f4dbec4062603b460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc435148416739fe6f0b9c658c730eed') in 0.030741 seconds 
-  Import took 0.036827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat
-  artifactKey: Guid(d2903b263d559f54794c1af4772a0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat using Guid(d2903b263d559f54794c1af4772a0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e6306e250334808e8d3bdf8fd9f34') in 0.024340 seconds 
-  Import took 0.029927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat
-  artifactKey: Guid(b8022f4bfe3976845b403285a16c5320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat using Guid(b8022f4bfe3976845b403285a16c5320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dac2ceae41099da0d32e002afe6c7e') in 0.027993 seconds 
-  Import took 0.033870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat
-  artifactKey: Guid(cdb22899674873642a8b09020709ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat using Guid(cdb22899674873642a8b09020709ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b755b9a6c99a10c5ea932ba6b308da7') in 0.024254 seconds 
-  Import took 0.029439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat
-  artifactKey: Guid(02b619845fcb6e741b4be7e71e36c491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat using Guid(02b619845fcb6e741b4be7e71e36c491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4795227b75769594bab3003f07b960a1') in 0.024130 seconds 
-  Import took 0.029987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat
-  artifactKey: Guid(6591b6a58c1933643bb87bf9fbef044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat using Guid(6591b6a58c1933643bb87bf9fbef044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a9d6e99fee658a850f79f7949f502f') in 0.026533 seconds 
-  Import took 0.031814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat
-  artifactKey: Guid(005e240c72f4ad94a986acc901553162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat using Guid(005e240c72f4ad94a986acc901553162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584b60d77470587e2c43fee69038a528') in 0.028979 seconds 
-  Import took 0.034042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat
-  artifactKey: Guid(1d5e3b19234a64f44984ae99e6ca6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat using Guid(1d5e3b19234a64f44984ae99e6ca6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ac890563b34cd542fc2881757a8418') in 0.028879 seconds 
-  Import took 0.034901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat
-  artifactKey: Guid(35480311dac00b44e8b4aa462037a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat using Guid(35480311dac00b44e8b4aa462037a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759d3089aadeedd4be49f6eb2320fab6') in 0.024462 seconds 
-  Import took 0.030161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat
-  artifactKey: Guid(3a1e33245c62cf54dad1f33cb1420dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat using Guid(3a1e33245c62cf54dad1f33cb1420dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9555ab00069d44c1643318a1a6a6029b') in 0.022712 seconds 
-  Import took 0.029075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat
-  artifactKey: Guid(d76781e69b0e937439800ef45648aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat using Guid(d76781e69b0e937439800ef45648aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860e9d09b74be573ded50032d7d629bb') in 0.026058 seconds 
-  Import took 0.031414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.265300 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Demo files
-  artifactKey: Guid(c23e212718ab6714cacf61e3305075d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Demo files using Guid(c23e212718ab6714cacf61e3305075d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545d7893b425a07e4e6dceb4c7f497e8') in 0.013713 seconds 
-  Import took 0.019637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.627970 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat
-  artifactKey: Guid(dc180ddaa9633db4c8e015141d784cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat using Guid(dc180ddaa9633db4c8e015141d784cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b7fbf557a58eb6751536ed95afe78') in 0.026490 seconds 
-  Import took 0.031837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Demo files/Tex_Background.png
-  artifactKey: Guid(d252bd04fa9c56941a32d6aee62d7a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Demo files/Tex_Background.png using Guid(d252bd04fa9c56941a32d6aee62d7a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41ac88a4e9051f7e25470d18c45d501') in 0.028869 seconds 
-  Import took 0.032520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/AnimeGirls/BaseCharacter/Demo files/Mesh_Background.fbx
-  artifactKey: Guid(f5f2f138c4fe6dc45b7ada1cf76fae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimeGirls/BaseCharacter/Demo files/Mesh_Background.fbx using Guid(f5f2f138c4fe6dc45b7ada1cf76fae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66b1107a935529cec11fcaf4c66feb1') in 0.067299 seconds 
-  Import took 0.071404 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019856 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.584 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2585ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (2193ms)
-			LoadAssemblies (228ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (616ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1115ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (949ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1715 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 98.8 MB.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2263.
-Total: 5.977900 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.094600 ms MarkObjects: 5.285900 ms  DeleteObjects: 0.340000 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2229.
+Total: 8.021900 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.048200 ms MarkObjects: 7.668600 ms  DeleteObjects: 0.095700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
