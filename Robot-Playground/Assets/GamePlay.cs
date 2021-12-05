@@ -13,6 +13,58 @@ public class GamePlay : MonoBehaviour
     UIManager UI;
     public AudioSource Source;
     public AudioClip CountDown,Win,Fail,Buttonsound;
+    public GameObject ChooseAvatar;
+
+    private void Awake()
+    {
+        if (ChooseAvatar != null)
+        {
+            i = this;
+
+            AudioListener.volume = 1;
+            Time.timeScale = 1f;
+            //  Enemy = GameObject.FindGameObjectWithTag("Enemy");
+            UI = GameObject.FindObjectOfType<UIManager>();
+            // UI.UI_fader.Fade(UIFader.FADE.FadeOut, 1f, 0);
+            Debug.Log("test count " + Count);
+            Levels[PlayerPrefs.GetInt("Level")].SetActive(true);
+            Player[MainMenu.PlayerNumber].SetActive(true);
+            if (Count == 0)
+            {
+                Environment[0].SetActive(true);
+                Round1Pannel.SetActive(true);
+            }
+            else if (Count == 1)
+            {
+                Environment[1].SetActive(true);
+                Round2Pannel.SetActive(true);
+                if (WinCounter == 1)
+                {
+                    P1.SetActive(true);
+                }
+                if (FailCounter == 1)
+                {
+                    E1.SetActive(true);
+                }
+            }
+            else if (Count == 2)
+            {
+                Environment[2].SetActive(true);
+                FinalRoundPannel.SetActive(true);
+                if (WinCounter == 1)
+                {
+                    P1.SetActive(true);
+                }
+                if (FailCounter == 1)
+                {
+                    E1.SetActive(true);
+                }
+            }
+            //AdsScript.Instance.ShowBannerAtTop();
+        }
+    }
+
+
     public void StartCounter()
     {
         i = this;

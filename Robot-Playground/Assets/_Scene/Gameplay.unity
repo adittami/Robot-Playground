@@ -5605,7 +5605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &370013992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20764,6 +20764,7 @@ MonoBehaviour:
   Win: {fileID: 8300000, guid: de47ead58ffb168438500fb43c812698, type: 3}
   Fail: {fileID: 8300000, guid: 9d38c592b30efc541b4ecadcce464bab, type: 3}
   Buttonsound: {fileID: 8300000, guid: 1f9f6ea4a1719614aae58e1e0291c0ad, type: 3}
+  ChooseAvatar: {fileID: 370013991}
 --- !u!4 &1107531657
 Transform:
   m_ObjectHideFlags: 0
@@ -21950,8 +21951,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1107531656}
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
